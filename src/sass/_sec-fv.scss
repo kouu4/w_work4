@@ -1,0 +1,10 @@
+.sec-fv {
+    height: 912.62px;
+    padding-top: 120px;
+}
+
+@media screen and (min-width: 768px), print {
+    .sec-fv {
+        padding-top: 170px;
+    }
+}

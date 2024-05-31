@@ -1,0 +1,26 @@
+@import 'variable';
+
+@import 'bg';
+@import 'container';
+@import 'content';
+@import 'footer';
+@import 'fv';
+@import 'header';
+@import 'logo';
+@import 'sec-content';
+@import 'sec-fv';
+
+body {
+    font-family: "Zen Old Mincho", serif;
+    color: $white;
+    background-color: $black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

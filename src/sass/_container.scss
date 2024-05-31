@@ -1,0 +1,12 @@
+.container {
+    padding-inline: 30px;
+    max-width: calc(1000px + (30px * 2));
+    margin-inline: auto;
+}
+
+.container--spread {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+}

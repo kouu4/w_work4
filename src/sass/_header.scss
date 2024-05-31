@@ -1,0 +1,19 @@
+.header {
+    position: fixed;
+    height: 120px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background-image: url('../../src/img/bg-color.png');
+    background-color: $black;
+}
+
+@media screen and (min-width: 768px), print {
+    .header {
+        height: 170px;
+    }
+}

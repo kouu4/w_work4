@@ -1,7 +1,7 @@
 .bg--fv {
   background-image: url("../../src/img/bg-color.png");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
 }
 
 .bg--content {
